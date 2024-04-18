@@ -14,3 +14,7 @@
 9. forms, label, input, type, placeholder, min, max, value, button
 - firstname, lastname, email, password, submit, color, date, file, number, range
 
+- Sample Website
+1. Header (nav)
+2. Main (section)
+3. Footer
