@@ -18,3 +18,17 @@
 1. Header (nav)
 2. Main (section)
 3. Footer
+
+- Now Adding CSS
+1. background-color
+2. background-image
+3. background-size : contain4. background-repeat : no-repeat
+5. background-position
+
+6. border, left,right,top,bottom and radius
+
+7. margin /* top right bottom left */
+margin: 22px 23px 21px 20px; /* This is the Outer Boundary*/
+
+8. padding /* top right bottom left */
+padding: 22px 23px 21px 20px; /* This is the inner Boundary*/
