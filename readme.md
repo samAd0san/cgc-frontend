@@ -1,6 +1,6 @@
 - Learnt So far in HTML
 
-1. Headings <h1>-<h6>
+1. Headings <h1> <h6>
 2. <table> <thead> <tbody> <tr> <th> <td>
 3. unordered list <ul> <li>
 4. ordered list <ol> <li>
@@ -33,3 +33,10 @@ margin: 22px 23px 21px 20px; /* This is the Outer Boundary*/
 
 8. padding /* top right bottom left */
 padding: 22px 23px 21px 20px; /* This is the inner Boundary*/
+
+### CSS Day2
+
+- Some Changes in forms.html using forms.css
+1. Converting Inline to Block and Block to inline
+2. font - size, variant, style, weight
+3. styling button (adding border, padding etc)

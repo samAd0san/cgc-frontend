@@ -3,14 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up</title>
-    <link rel="stylesheet" href="style.css"/>
+    <title> Sign Up</title>
+    <link rel="stylesheet" href="forms.css"/>
+    <!-- Font Awesome stylesheet should be included in the HTML code to reflect the fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <form>
-        <h4 class="heading">Heading 4</h4>
+
+        <!-- Converting inline to block (check in forms.css)--> 
+        <span class="span">span 1</span>
+        <span class="span">span 2</span>
+
+        <!-- Converting block to inline (check in forms.css)-->
+        <div class="div">div 1</div>
+        <div class="div">div 2</div>
+
+        <h4 class="heading">Heading 1</h4>
         <h3 class="form-name">Sign Up</h3>
-        <h3 class="form-name">Heading 3</h3>
+        <h3 class="form-name">Heading 2</h3>
         <h3 class="form-name">Heading 3</h3>
         
         <div>
@@ -33,7 +44,11 @@
             <input type="password" placeholder="password">
         </div><br>
 
-        <button type="submit">Signup</button><br>
+        <!-- Adding font to submit button -->
+        <button type="submit" class="btn">
+            Signup
+            <i class="fa-solid fa-user-plus"></i>
+        </button><br>
 
         <div>
             <label>Color</label>
