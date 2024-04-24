@@ -4,57 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website</title>
-
-    <!-- Internal way of Implementing CSS -->
-    <style>
-        main div{
-            align-content: center;
-            /* text-align: center; */
-        }
-    </style>
-
+    <link rel="stylesheet" href="/website.css">
+    <!-- Font Awesome stylesheet should be included in the HTML code to reflect the fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
         <nav>
-            <div>
-                CGC Products
+            <div class="brand">
+                <i class="fa-solid fa-book-open-reader"></i>
+                <a href="">CGC Trainings</a>
             </div>
-                <a href=""><li>Home</li></a>
-                <a href=""><li>About</li></a>
-                <a href=""><li>Contact</li></a>
-                <a href=""><li>Product</li></a>
+            <ul class="navigation">
+                <li><a href="">About</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li><a href=""><i class="fa-regular fa-circle-user"></i></a></li>
             </ul>
         </nav>
-    </header><hr>
+    </header>
 
     <main>
-        <section>
+        <div class="hero-section">
+            <div class="heading">Get Iphone at great discount</div>
+            <img src="/media/iphone14.jpg" alt="Not Found" width="225px" height="225px">
             <div>
-                <div>Welcome to CGC, This is where the actual learning begins</div>
+                <button class="btn">
+                    Buy now 
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+                <button class="btn">
+                    Learn more
+                    <i class="fa-solid fa-info"></i>
+                </button>
             </div>
-        </section>
-
-        <!-- This is the inline way of implementing CSS -->
-        <div style="text-align: center;">
-            <img width="200" height="200"
-                src="https://www.boardinfinity.com/blog/content/images/2023/01/Mern.png" />
         </div>
+    </main>
 
-        <div style="text-align: center;">
-            MERN WEB DEVELOPMENT
-        </div>
-
-        <div style="text-align: center;">
-            100$
-        </div>
-
-        <div style="text-align: center;">
-            3 MONTHS
-        </div>
-    </main><hr>
     <footer>
-        &copy; 2023. All rights reserved by Career Guidance Council | Design & Developed by ArtnDesign Advertisers
+        &copy;2024 cgc.com
+        <ul class="social">
+            <li><i class="fa-brands fa-linkedin"></i></li>
+            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+        </ul>
     </footer>
 </body>
 </html>

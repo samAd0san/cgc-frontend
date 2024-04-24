@@ -22,8 +22,9 @@
 - Now Adding CSS
 1. background-color
 2. background-image
-3. background-size : contain4. background-repeat : no-repeat
-5. background-position
+3. background-size : contain
+4. background-repeat : no-repeat
+5. background-position : left,right,top,bottom
 
 6. border, left,right,top,bottom and radius
 
